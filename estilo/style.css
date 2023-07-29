@@ -18,17 +18,20 @@
   }
   
 
-body {
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #000;
 }
 
 
 
 nav {
-
     display: flex;
     padding: 6px;
     background-color: var(--fundo-card);
+    padding: 0 6rem;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -70,10 +73,6 @@ nav .links a{
     color: #fff;
 }
 
-nav .links a:hover {
-    color: #ffffff94;
-}
-
 nav .links a img {
     display: block;
     text-align: center;
@@ -82,9 +81,11 @@ nav .links a img {
     height: 25px;
 }
 
-nav .links a img:hover {
+nav .links .inicio:hover, .rede:hover, .vagas:hover, .mensagens:hover, .notificacoes:hover, .solucoes:hover {
     filter: brightness(50%);
 }
+
+
 
 nav .icones {
     display: inline-block;
@@ -95,4 +96,207 @@ nav .icones {
 #separacao {
     padding-right: 10px;
     border-right: 1px solid #fff;
+}
+
+section#pessoal {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+
+#capa {
+    display: flex;
+    width: 790px;
+    height: 230px;
+    justify-content: center;
+    
+}
+
+#capa img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+    left: -65px;
+}
+
+#informacoes {
+    width: 788px;
+    height: 270px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: var(--fundo-card-ativo);
+    position: relative;
+    left: -65px;
+}
+
+#foto-perfil img {
+    position: absolute;
+    top: -120px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+    
+}
+
+#informacoes h1 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+#informacoes p{
+    margin-left: 30px;
+    width: 450px;
+}
+
+#cidade p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--texto-secundario);
+}
+
+#informacoes a {
+    text-decoration: none;
+    color: var(--primario);
+}
+
+#informacoes a:hover{
+    text-decoration: underline;
+}
+
+#faculdade {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;   
+    left: 550px; 
+    gap: 10px;
+}
+
+#faculdade img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#faculdade a {
+    color: #fff;
+}
+
+#faculdade a:hover {
+    text-decoration: none;
+}
+
+#button-informacoes button{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid var(--primario);
+}
+
+#button-mensagem {
+    background-color: var(--primario);
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+#button-mensagem:hover {
+    background-color: #95c8faf3;
+}
+
+#button-mais {
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--primario);
+}
+
+#button-mais:hover {
+    background-color: #272e33;
+}
+
+#destaques {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: var(--fundo-card-ativo);
+    width: 788px;
+    height: 300px;
+    position: relative;
+    left: -65px;
+}
+
+#destaques h1 {
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#destaques h2 {
+    font-weight: normal;
+    margin: 8px;
+    color: #ffffff75;
+    font-size: 15px;
+}
+
+#destaques img {
+    width: 236px;   
+    height: 152px; 
+}
+
+#destaques p {
+    margin-left: 8px;
+    color: #fff;
+}
+
+.publi {
+    margin-left: 15px;
+    width: 238px;
+    height: 210px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#atividades {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--fundo-card-ativo);
+    width: 788px;
+    height: 300px;
+    position: relative;
+    left: -65px;
+    border-radius: 15px;
+}
+
+#atividades h1 {
+    margin: 15px 0px 10px 25px;
+    color: #fff;
+    font-weight: normal;
+}
+
+#atividades a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: var(--primario);
+}
+
+#atividades a:hover {
+    text-decoration: underline;
+}
+
+#atividades h2 {
+    color: #ffffff86;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 15px 0px 10px 25px;
+}
+
+.data-ativ {
+    
 }
