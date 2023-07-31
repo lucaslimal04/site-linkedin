@@ -558,3 +558,8 @@ section#pessoal {
     position: absolute;
     top: 200px;
 }
+
+#talvez-conheca .nome-pessoa-2 h2:hover {
+    text-decoration: underline;
+    color: var(--primario);
+}
