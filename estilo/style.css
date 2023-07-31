@@ -23,7 +23,9 @@ body, html {
     background-color: #000;
 }
 
-
+body {
+    position: relative;
+}
 
 nav {
     display: flex;
@@ -125,7 +127,7 @@ section#pessoal {
     height: 270px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    background-color: var(--fundo-card-ativo);
+    background-color: var(--fundo-card);
     position: relative;
     left: -65px;
 }
@@ -223,7 +225,7 @@ section#pessoal {
     margin: auto;
     margin-top: 15px;
     border-radius: 15px;
-    background-color: var(--fundo-card-ativo);
+    background-color: var(--fundo-card);
     width: 788px;
     height: 300px;
     position: relative;
@@ -266,9 +268,10 @@ section#pessoal {
     flex-direction: column;
     margin: auto;
     margin-top: 20px;
-    background-color: var(--fundo-card-ativo);
+    margin-bottom: 20px;
+    background-color: var(--fundo-card);
     width: 788px;
-    height: 300px;
+    height: 500px;
     position: relative;
     left: -65px;
     border-radius: 15px;
@@ -297,6 +300,261 @@ section#pessoal {
     margin: 15px 0px 10px 25px;
 }
 
-.data-ativ {
+#atividades p {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+#atividades h3 {
+    color: #fff;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+#atividades .nome-projeto a {
+    color: var(--texto-secundario);
+    margin: 0px;
+}
+
+#atividades .nome-projeto a:hover {
+    text-decoration: none;
+}
+
+#atividades .nome-projeto p {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#atividades .imagem-like {
+    background-color: transparent;
+    border-color: transparent;
+    width: 25px;
+    padding:10px 0px 0px 25px;
+    cursor: pointer;
+}
+
+#atividades img {
+    width: 25px;
     
+}
+
+#atividades .ativ-1 {
+    border-bottom: 1px solid #ffffff3f;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.exibir-publi {
+    margin: auto;
+}
+
+.exibir-publi button{
+    color: #fff;
+    width: 788px;
+    height: 50px;
+    background-color: transparent;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.exibir-publi button:hover {
+    background-color: #4a5761
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    width: 788px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    left: -65px;
+    margin-bottom: 20px;
+}
+
+#sobre h1 {
+    color: #fff;
+    margin: 15px;
+}
+
+#sobre p{
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+    width: 750px;
+    margin: auto;
+}
+
+#formacao {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    margin: auto;
+    margin-bottom: 20px;
+    width: 788px;
+    height: 180px;
+    position: relative;
+    left: -65px;
+    border-radius: 15px;
+}
+
+#formacao h1 {
+    margin: 25px;
+}
+
+#formacao img {
+    width: 50px;
+    margin-left: 25px;
+}
+
+#formacao a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#formacao .academica {
+    position: absolute;
+    left: 90px;
+    top: 81px;
+}
+
+#formacao .academica:hover {
+    color: var(--primario);
+    text-decoration: underline;
+}
+
+#formacao .computacao {
+    font-size: 14px;
+    position: absolute;
+    left: 90px;
+    top: 106px;
+}
+
+#formacao .ano {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    position: absolute;
+    left: 90px;
+    top: 128px;
+}
+
+#idioma {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    margin: auto;
+    margin-bottom: 20px;
+    width: 788px;
+    height: 150px;
+    position: relative;
+    left: -65px;
+    border-radius: 15px;
+}
+
+#idioma h1 {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#idioma h2 {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+#idioma p {
+    margin-left: 25px;
+    margin-top: 8px;
+    color: var(--texto-secundario);
+    padding-bottom: 10px;
+    width: 750px;
+    border-bottom: 1px solid #ffffff3f;   
+}
+
+#talvez-conheca {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 580px;
+    position: absolute;
+    left: 64em;
+    top: 64px;
+    border-radius: 15px;
+}
+
+#talvez-conheca h1 {
+    margin: 15px;
+    font-size: 15.5px;
+}
+
+#talvez-conheca img {
+    margin-left: 15px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#talvez-conheca h2 {
+    font-size: 15px;
+    position: absolute;
+    left: 85px;
+    top: 55px;
+}
+
+#talvez-conheca p {
+    width: 210px;
+    font-size: 15px;
+    position: absolute;
+    left: 85px;
+    top: 80px;
+}
+
+#talvez-conheca a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#talvez-conheca .nome-pessoa:hover h2 {
+    color: var(--primario);
+    text-decoration: underline;
+}
+
+#talvez-conheca button {
+    color: #fff;
+    margin: 15px auto;
+    width: 120px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+#talvez-conheca button:hover {
+    background-color: #ffffff3d;
+}
+
+#talvez-conheca .nome-pessoa-2 {
+    position: absolute;
+    top: 120px;
+    width: 200px;
+}
+
+#talvez-conheca .profissao-pessoa-2 {
+    position: absolute;
+    top: 200px;
 }
