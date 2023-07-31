@@ -125,7 +125,7 @@ section#pessoal {
     height: 270px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    background-color: var(--fundo-card-ativo);
+    background-color: var(--fundo-card);
     position: relative;
     left: -65px;
 }
@@ -223,7 +223,7 @@ section#pessoal {
     margin: auto;
     margin-top: 15px;
     border-radius: 15px;
-    background-color: var(--fundo-card-ativo);
+    background-color: var(--fundo-card);
     width: 788px;
     height: 300px;
     position: relative;
@@ -266,9 +266,10 @@ section#pessoal {
     flex-direction: column;
     margin: auto;
     margin-top: 20px;
-    background-color: var(--fundo-card-ativo);
+    margin-bottom: 20px;
+    background-color: var(--fundo-card);
     width: 788px;
-    height: 300px;
+    height: 500px;
     position: relative;
     left: -65px;
     border-radius: 15px;
@@ -297,6 +298,97 @@ section#pessoal {
     margin: 15px 0px 10px 25px;
 }
 
-.data-ativ {
+#atividades p {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+#atividades h3 {
+    color: #fff;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+#atividades .nome-projeto a {
+    color: var(--texto-secundario);
+    margin: 0px;
+}
+
+#atividades .nome-projeto a:hover {
+    text-decoration: none;
+}
+
+#atividades .nome-projeto p {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#atividades .imagem-like {
+    background-color: transparent;
+    border-color: transparent;
+    width: 25px;
+    padding:10px 0px 0px 25px;
+    cursor: pointer;
+}
+
+#atividades img {
+    width: 25px;
     
 }
+
+#atividades .ativ-1 {
+    border-bottom: 1px solid #ffffff3f;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.exibir-publi {
+    margin: auto;
+}
+
+.exibir-publi button{
+    color: #fff;
+    width: 788px;
+    height: 50px;
+    background-color: transparent;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.exibir-publi button:hover {
+    background-color: #4a5761
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-card);
+    width: 788px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    left: -65px;
+    margin-bottom: 20px;
+}
+
+#sobre h1 {
+    color: #fff;
+    margin: 15px;
+}
+
+#sobre p{
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+    width: 750px;
+    margin: auto;
+}
+
+
