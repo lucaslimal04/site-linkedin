@@ -23,10 +23,6 @@ body, html {
     background-color: #000;
 }
 
-body {
-    position: relative;
-}
-
 nav {
     display: flex;
     padding: 6px;
@@ -490,9 +486,8 @@ section#pessoal {
     margin-bottom: 20px;
     width: 300px;
     height: 580px;
-    position: absolute;
-    left: 64em;
-    top: 64px;
+    transform: translateX(500px) translateY(-2095px);
+
     border-radius: 15px;
 }
 
@@ -557,9 +552,4 @@ section#pessoal {
 #talvez-conheca .profissao-pessoa-2 {
     position: absolute;
     top: 200px;
-}
-
-#talvez-conheca .nome-pessoa-2 h2:hover {
-    text-decoration: underline;
-    color: var(--primario);
 }
