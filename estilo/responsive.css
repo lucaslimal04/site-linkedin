@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+#burguer {
+    display: block;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    left: 260px;
+    
+    cursor: pointer;
+}
+
+nav #logo {
+    margin-left: -70px;
+}
+
+#separacao {
+    border-color: transparent;
+}
+
+.links a{
+    display: none;
+}
+
+section, #informacoes, #capa {
+    margin: 0 auto;
+    max-width: 350px;
+    position: sticky;
+    
+}
+
+#informacoes {
+    height: 290px;
+}
+
+#button-informacoes {
+    display: flex;
+    margin-right: 25px;
+}
+
+section {
+    overflow: hidden;
+}
+
+#capa {
+    margin-left: 65px;
+}
+
+.tudo {
+    margin-left: 100px;
+}
+
+p {
+    max-width: 300px;
+    overflow: hidden;
+}
+
+#talvez-conheca {
+    display: none;
+}
+
+}
