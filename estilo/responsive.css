@@ -2,21 +2,17 @@
 
 @media screen and (max-width: 600px) {
 
-body, html {
-    max-width: 350px;
-}
-
 #burguer {
     display: block;
     position: relative;
     color: #fff;
     padding: 10px;
-    left: 260px;
+    left: 190px;
     cursor: pointer;
 }
 
 nav #logo {
-    margin-left: -70px;
+    margin-left: -150px;
 }
 
 #separacao {
@@ -27,11 +23,19 @@ nav #logo {
     display: none;
 }
 
-section, #informacoes, #capa {
+section, #informacoes {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 350px;
     position: sticky;
     
+}
+
+#capa {
+    margin: 0 auto;
+    max-width: 350px;
+    position: sticky; 
 }
 
 #informacoes {
