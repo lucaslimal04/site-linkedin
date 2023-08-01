@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 600px) {
 
+body {
+    max-width: 350px;
+}
+
 #burguer {
     display: block;
     position: relative;
