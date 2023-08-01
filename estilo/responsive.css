@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 600px) {
 
-body {
+body, html {
     max-width: 350px;
 }
 
