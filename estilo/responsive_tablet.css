@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:1200px){
+
+nav {
+    width: 1000px;
+}
+  
+    #logo {
+        margin-left: 0px;
+    }
+
+#capa {
+    margin: 0 auto;
+    margin-left: 68px;
+    max-width: 700px;
+} 
+
+section, #informacoes {
+    display: flex;            flex-direction: column;
+    max-width: 700px;
+    position: sticky;
+    margin-left: 5px;
+    }
+
+#destaques, #atividades, #sobre, #formacao, #idioma {
+    max-width: 700px;
+    margin-left: 73px;
+}
+
+#atividades .ativ-1 {
+    width: auto;
+}
+
+#faculdade {
+    margin-top: 100px;
+}
+
+#sobre p {
+    width: auto;
+    margin: 5px;
+}
+
+#idioma p{
+    margin-right: 25px;
+    width: auto;
+}
+
+#talvez-conheca {
+    margin-left: 250px;
+    width: 250px;
+}
+
+#talvez-conheca p {
+    width: auto;
+}
+  
+}
+
