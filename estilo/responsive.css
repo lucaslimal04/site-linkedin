@@ -37,6 +37,7 @@ section, #informacoes {
 }
 
 #pessoal {
+    position: sticky;
     margin-left: 0px;
 }
 
@@ -46,7 +47,8 @@ section, #informacoes {
 }
 
 #destaques, #atividades, #sobre, #formacao, #idioma {
-    margin-left: 65px;
+    position: sticky;
+    margin-left: 0px;
 }
 
 section {
