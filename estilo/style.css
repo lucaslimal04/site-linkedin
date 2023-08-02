@@ -23,6 +23,10 @@ body, html {
     background-color: #000;
 }
 
+main {
+    height: 100vh;
+}
+
 #burguer {
     display: none;
 }
@@ -453,7 +457,6 @@ section#pessoal {
     flex-direction: column;
     background-color: var(--fundo-card);
     margin: auto;
-    margin-bottom: 20px;
     width: 788px;
     height: 150px;
     position: relative;
@@ -487,10 +490,9 @@ section#pessoal {
     flex-direction: column;
     background-color: var(--fundo-card);
     margin: auto;
-    margin-bottom: 20px;
     width: 300px;
     height: 580px;
-    transform: translateX(500px) translateY(-2095px);
+    transform: translateX(500px) translateY(-2075px);
 
     border-radius: 15px;
 }
