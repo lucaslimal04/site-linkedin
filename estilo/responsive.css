@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+nav {
+    width: 160px;
+}
+
 nav #logo {
     margin-left: -110px;
 }
