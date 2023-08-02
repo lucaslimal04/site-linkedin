@@ -4,7 +4,8 @@
 
 body {
     display: grid;
-    place-items: center;
+    
+    
 }
 
 #burguer {
@@ -17,7 +18,7 @@ body {
 }
 
 nav #logo {
-    margin-left: -150px;
+    margin-left: -110px;
 }
 
 #separacao {
@@ -31,7 +32,6 @@ nav #logo {
 section, #informacoes {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     max-width: 350px;
     position: sticky;
     
@@ -39,12 +39,12 @@ section, #informacoes {
 
 #capa {
     margin: 0 auto;
+    margin-left: 65px;
     max-width: 350px;
-    position: sticky; 
 }
 
-#informacoes {
-    height: 290px;
+#pessoal {
+    margin-left: 50px;
 }
 
 #button-informacoes {
@@ -52,22 +52,35 @@ section, #informacoes {
     margin-right: 25px;
 }
 
+#destaques {
+    margin-left: 115px;
+}
+
+#atividades {
+    margin-left: 115px;
+}
+
+#sobre {
+    margin-left: 115px;
+}
+
+#formacao {
+    margin-left: 115px;
+}
+
+#idioma {
+    margin-left: 115px;
+}
+
 section {
     overflow: hidden;
-}
-
-#capa {
-    margin-left: 65px;
-}
-
-.tudo {
-    
 }
 
 p {
     max-width: 300px;
     overflow: hidden;
 }
+
 
 #talvez-conheca {
     display: none;
