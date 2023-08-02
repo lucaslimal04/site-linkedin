@@ -13,7 +13,7 @@ body {
     position: relative;
     color: #fff;
     padding: 10px;
-    left: 190px;
+    left: 215px;
     cursor: pointer;
 }
 
@@ -34,7 +34,6 @@ section, #informacoes {
     flex-direction: column;
     max-width: 350px;
     position: sticky;
-    
 }
 
 #capa {
@@ -44,7 +43,7 @@ section, #informacoes {
 }
 
 #pessoal {
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 #button-informacoes {
@@ -52,24 +51,8 @@ section, #informacoes {
     margin-right: 25px;
 }
 
-#destaques {
-    margin-left: 115px;
-}
-
-#atividades {
-    margin-left: 115px;
-}
-
-#sobre {
-    margin-left: 115px;
-}
-
-#formacao {
-    margin-left: 115px;
-}
-
-#idioma {
-    margin-left: 115px;
+#destaques, #atividades, #sobre, #formacao, #idioma {
+    margin-left: 65px;
 }
 
 section {
